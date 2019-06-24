@@ -1,5 +1,5 @@
 """
-这里的Demo是一个最简单的双均线策略实现
+strategy using Donchian channel
 """
 from vnpy.trader.vtConstant import *
 from vnpy.trader.app.ctaStrategy import CtaTemplate
