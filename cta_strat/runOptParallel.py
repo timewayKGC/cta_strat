@@ -27,8 +27,8 @@ def setConfig(root=None):
     }
     # 设置策略优化参数
     optimize.paramsSetting = {
-            "envPeriod": range(10,20,1),
-            "stopAtrTime": np.arange(1.5,2.5,0.1)
+            "envPeriod": range(10,20,2),
+            "stopAtrTime": np.arange(1.5,2.5,0.2)
     }
     path = os.path.split(os.path.realpath(__file__))[0]
     with open(path+"//CTA_setting.json") as f:
