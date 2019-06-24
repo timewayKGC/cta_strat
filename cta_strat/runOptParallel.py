@@ -16,7 +16,7 @@ def setConfig(root=None):
         "endDate": "20190225 23:00:00",
         "dbName": "VnTrader_1Min_Db",
         "contract":[{
-                    "slippage": 0.002,
+                    "slippage": 0.5,
                     "rate": 5/10000,
                     }]
     }
