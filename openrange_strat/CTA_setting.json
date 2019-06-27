@@ -1,0 +1,10 @@
+[{
+    "timeframeMap" :
+    {"bandPeriod": "15m", "signalPeriod": "5m"},
+
+    "symbolList": ["IF88:CTP"],
+    "barPeriod" : 150,
+    "stoplossPct":0.03,
+    "lot" :10
+}
+]
